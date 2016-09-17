@@ -175,7 +175,8 @@ h4, h5 {
     font-weight: bold;
 }
 
-h2 {
+.consult {
+    text-align: center;
     font-size: 32px;
     color: #140046;
     margin-left: 20px;
