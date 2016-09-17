@@ -82,7 +82,7 @@ body {
     margin-right: 20%
     border: 1px dotted gray;
     padding: 10px 10px 10px 10px;
-    font-family: sans-serif;
+    font-family: verdana sans-serif;
     font-size: 16px;
     text-align: center;
 }
@@ -162,9 +162,10 @@ a:hover, a:visited, a:link, a:active {
 }
 img {max-width:100%}
 
-h3 {
+.call {
+
     font-weight: bold;
-    line-height: 32px;
+    font-size: 18px;
 }
 
 h4, h5 {
@@ -213,7 +214,7 @@ h3 {
 }
 
 .link {
-  font-size: 24px;
+  font-size: 18px;
 color: #140046;
 }
 
