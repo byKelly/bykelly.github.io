@@ -231,8 +231,10 @@ h3 {
 color: #140046;
 }
 
-html {
-    -webkit-text-size-adjust: none;
+@media only screen and (max-device-width: 480px) { 
+    html {
+        -webkit-text-size-adjust: none; 
+    }
 }
 
 
