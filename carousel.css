@@ -142,9 +142,9 @@ p.address {
 
 p.phone {
     font-size: 26px;
-    color: black;
+    color:#8B0000;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
     text-decoration: none;
     max-width:100;
 }
@@ -210,6 +210,7 @@ p.boxed {
 }
 
 h3 {
+    color:#8B0000;
     margin-left:  20px;
     margin-right: 20px;
 }
