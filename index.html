@@ -26,13 +26,65 @@
 
     <title>Kelly's Pages</title>
 
+    <style type="text/css">
+        .header-phone {
+            margin-top: 29px;
+        }
+
+        .socialicon {
+            padding: 10px;
+        }
+
+        .intro {
+          margin-top: 50px;
+          margin-bottom: 50px;
+
+        }
+
+        .tab {
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+
+        .phone {
+            padding-bottom: 30px;
+        }
+
+        .bottomlink {
+            color: black;
+        }
+
+        .contactinfo {
+            padding-top: 30px;
+        }
+
+        .bottomlink {
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .paypal-buttons {
+          margin: 50px 0 50px 0;
+        }
+    </style>
+
 </head>
 
 <body>
 
-    <div><img src="smalllogo.png"></div>
-    <div>
-        <a href="tel:+19284822247">928.482.2247</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 hidden-xs">
+                <img src="smalllogo.png">
+            </div>
+            <div class="col-sm-6">
+                <p class="text-right header-phone">
+                    <span class="glyphicon glyphicon-phone-alt"></span>
+                    <a href="tel:+19284822247">928.482.2247</a>
+                </p>
+            </div>
+        </div>
+
     </div>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -43,6 +95,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
+                <span class="navbar-brand visible-xs-inline">Kelly's Pages</span>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -99,12 +152,14 @@
                 </div>
             </div>
         </div>
-        <p class="call">Call 928-482-2247 for a free estimate! Kelly's Pages offers website design services and consulting with SEO services locally here in
+        <div class="intro">
+        <h4 class="text-center">Call 928-482-2247 for a free estimate! Kelly's Pages offers website design services and consulting with SEO services locally here in
             <a class="link" target="_blank" href="http://www.lhcaz.gov/">Lake Havasu City,</a> Arizona and in Mohave County. Further, Kelly's Pages accepts web design work via remotely, communicating through Skype or other video conferencing methods.
-        </p>
+        </h4>
+      </div>
 
 
-        <p class="offers">Kelly's Pages Offers:</p>
+        <h4 class="offers">Kelly's Pages Offers:</h4>
         <div class="tab">
             <li>Responsive Web Design</li>
             <li>Evaluation of Current Website</li>
@@ -113,38 +168,38 @@
             <li>Consulting on Services such as Web Hosting and Website Management</li>
         </div>
 
-        <p class="consult">Call for a consulting appointment today to bring your ideas live on the internet!</p>
-        <p class="phone">Phone: 928-482-2247 </p>
-        <div class="twitter">
+        <h4 class="text-center">Call for a consulting appointment today to bring your ideas live on the internet!</h4>
+        <div class="phone">
+            <h4 class="text-center">Phone: 928-482-2247</h4></div>
+        <div class="socialicon">
             <div>
                 <a href="https://twitter.com/kellyspages" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @bykellyspages</a>
             </div>
-            <div>
+            <div class="socialicon">
                 <a target="_blank" title="Find us on Facebook" href="https://www.facebook.com/kellyspages/"><img src="facebook.png" alt="Follow on Facebook" border="0"></a>
             </div>
-            <div class="googlepluspage">
-                <div>
-                    <a target="_blank" title="Visit Google Plus Page" href="https://plus.google.com/b/105464506091186986270/+Kellyspages"><img src="googleplusicon.png" alt="Visit Us on Google Plus Page" border="0"></a>
-                </div>
-                <div>
-                    <a target="_blank" title="See Us on Tumblr" href="https://www.tumblr.com/blog/kellyspages"><img src="tumblricon.png" alt="See Us on Tumblr" border="0"></a>
-                </div>
-                <a target="_blank" href="mailto:info@kellyspages.com">Email: info@kellyspages.com</a>
-                <p>P.O. Box 1493<br>Lake Havasu City, AZ 86405</p>
-                <p>Phone: 928-482-2247 </p>
-                <p id="Paypal">
-                    <div>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="PLU6GQM648FSC">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                    </div>
-                </p>
-                <div>
-                    <a class="bottom link" target="_blank" href="http://www.kellyspages.com/">www.kellyspages.com</a>
-                </div>
+            <div class="socialicon">
+                <a target="_blank" title="Visit Google Plus Page" href="https://plus.google.com/b/105464506091186986270/+Kellyspages"><img src="googleplusicon.png" alt="Visit Us on Google Plus Page" border="0"></a>
+            </div>
+            <div class="socialicon">
+                <a target="_blank" title="See Us on Tumblr" href="https://www.tumblr.com/blog/kellyspages"><img src="tumblricon.png" alt="See Us on Tumblr" border="0"></a>
+            </div>
+            <div class="contactinfo">
+                <p class="text-center"><a target="_blank" href="mailto:info@kellyspages.com">Email: info@kellyspages.com</a></p>
+                <p class="text-center">P.O. Box 1493<br>Lake Havasu City, AZ 86405</p>
+                <p class="text-center">Phone: 928-482-2247 </p>
+            </div>
+            <div class="text-center paypal-buttons">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="GPZCH3UTXJQ6E">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+            </div>
+            <div class="text-center">
+                <a class="bottomlink" target="_blank" href="http://www.kellyspages.com/">www.kellyspages.com</a>
             </div>
         </div>
     </div>
