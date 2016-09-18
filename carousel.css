@@ -83,7 +83,7 @@ body {
     border: 1px dotted gray;
     padding: 10px 10px 10px 10px;
     font-family: verdana sans-serif;
-    font-size: 32px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -184,9 +184,10 @@ h4, h5 {
     padding-right: 20px;
 }
 
-.businessnumber {
+#businessnumber {
     text-align:center;
     font-weight:bold;
+    max-width: 100%;
     font-size: 32px;
     color: #8B0000;
     padding-left: 20px;
