@@ -177,13 +177,9 @@ h4, h5 {
 
 .consult {
     text-align: center;
-<<<<<<< HEAD
+    color: #070233;
     font-weight: bold;
-    font-size: 20px;
-=======
     font-size: 32px;
->>>>>>> parent of 33cae57... Changed font to class "consult" to bold
-    color: #140046;
     padding-left: 20px;
     padding-right: 20px;
 }
