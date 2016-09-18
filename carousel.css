@@ -231,3 +231,9 @@ h3 {
 color: #140046;
 }
 
+html {
+    -webkit-text-size-adjust: none;
+}
+
+
+
